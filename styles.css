@@ -1,0 +1,50 @@
+body {
+    background: grey;
+}
+
+.post {
+    background: white; 
+    width: 500px;
+    height: 750px;
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header {
+      display: flex;
+      padding: 10px 20px;
+      align-items: baseline;
+}
+.header1 {
+    padding: 10px 20px  ;
+}
+
+.elipsis {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.image {
+    display: flex;
+    justify-content: center ;
+}
+
+.icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bookmark {
+    display: flex;
+    justify-content: flex-end; 
+
+}
+.footer {
+    padding: 0.5rem 1rem;
+}
